@@ -17,7 +17,7 @@ imas-hackathon
 
 # 企画状況
 
-- [アイマスハッカソン企画会議0724](http://twipla.jp/events/209574)
+- [アイマスハッカソン企画会議0724](https://github.com/imas/hackathon/blob/master/plannings/20160724.md)
 
 # 概要
 
