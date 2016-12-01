@@ -1,0 +1,46 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'fileutils'
+
+params = {}
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: #{File.basename($0)} [options]"
+  opts.on('-n', '--name your_name', 'Your name') do |name|
+    params[:name] = name
+  end
+end.parse!
+
+unless params[:name]
+  print 'name:'
+  params[:name] = $stdin.readline.chomp
+end
+
+dir_name = 'producers'
+base = ARGV.empty? ? '.' : ARGV.shift
+tpl_file = File.join(base, "#{dir_name}/_template.md")
+my_file = File.join(base, "#{dir_name}/#{params[:name]}.md")
+
+if File.exists?(my_file)
+  abort "#{my_file}: File already exists."
+end
+
+questions = File.readlines(tpl_file).select { |l| l.match /^## / }.map { |q| q.chomp }
+
+content = questions.map do |question|
+  print "\n#{question} (ENTER to complete.)\n> "
+  ans = $stdin.gets
+  { q: question, a: ans.chomp }
+end.inject("") do |content, prof|
+  content << <<-FILE
+#{prof[:q]}
+
+#{prof[:a]}
+
+  FILE
+end
+
+puts content
+File.open(my_file, 'w').write(content)
+puts "Wrote to #{my_file}"
