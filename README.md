@@ -15,7 +15,9 @@ imas-hackathon [![Slack Status](https://imas-hack.herokuapp.com/badge.svg)](http
 
 ## 企画状況
 
-現在、企画されているイベントはありません。
+### アイマスエンジニアMeetup in OSAKA
+- 開催日時:2月25日(土)
+- [connpassイベントページ](https://imas.connpass.com/event/50353/)
 
 [wiki](https://github.com/imas/hackathon/wiki)や[plannings](https://github.com/imas/hackathon/tree/master/plannings) 以下も参照ください。
 
