@@ -13,18 +13,18 @@ imas-hackathon [![Slack Status](https://imas-hack.herokuapp.com/badge.svg)](http
 
 `./generate_profile` を実行すれば無駄に対話形式でいけます。
 
+[Slack](https://imas-hack.herokuapp.com/)もあります。
+
 ## 企画状況
 
-### アイマスエンジニアMeetup in OSAKA
-- 開催日時:2月25日(土)
-- [connpassイベントページ](https://imas.connpass.com/event/50353/)
+現在、企画されているイベントはありません。
 
 [wiki](https://github.com/imas/hackathon/wiki)や[plannings](https://github.com/imas/hackathon/tree/master/plannings) 以下も参照ください。
 
 ## リンク集
 
 - [#imas\_hack](https://twitter.com/search?f=tweets&q=%23imas_hack&src=typd)
-- [slack](https://imas-hack.herokuapp.com/)
+- [Slack](https://imas-hack.herokuapp.com/)
 - [connpass](http://imas.connpass.com/)
 
 ツッコミ歓迎します。Pull Request、Issue、[Slack](https://imas-hack.herokuapp.com/)まで連絡ください。
