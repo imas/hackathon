@@ -38,7 +38,7 @@
 
 - Twitter:  @masawoImonoyama
 - github:   MasawoImonoyama
-- Mastodon: @masawoimonoyama@imastodon.net 
+- Mastodon: http://imastodon.net/@masawoimonoyama 
 - Nifty-SERVE: PXC02676 <- をい。何年前の話だ。
 
 ## 意気込みを一言
