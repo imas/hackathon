@@ -15,12 +15,6 @@ imas-hackathon [![Slack Status](https://imas-hack.herokuapp.com/badge.svg)](http
 
 [Slack](https://imas-hack.herokuapp.com/)もあります。
 
-## 企画状況
-
-現在、企画されているイベントはありません。
-
-[wiki](https://github.com/imas/hackathon/wiki)や[plannings](https://github.com/imas/hackathon/tree/master/plannings) 以下も参照ください。
-
 ## リンク集
 
 - [#imas\_hack](https://twitter.com/search?f=tweets&q=%23imas_hack&src=typd)
