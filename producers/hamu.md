@@ -27,9 +27,7 @@
 
 ## 最近やっている活動
 
-- Twitter
- @hamup8
- <https://twitter.com/hamup8>
+- Twitter:[@hamup8](https://twitter.com/hamup8)
 
 - デレステ・モバマスをゆるゆると。
 - ハックはできてない。。。
