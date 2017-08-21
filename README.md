@@ -15,6 +15,17 @@ imas-hackathon [![Slack Status](https://imas-hack.herokuapp.com/badge.svg)](http
 
 [Slack](https://imas-hack.herokuapp.com/)もあります。
 
+## 企画状況
+
+### あいますえんじにあ Meetup in 京都(アイデアソン)
+- 開催日時:09月02日(土)
+- [connpassイベントページ](https://imas.connpass.com/event/64177/)
+- 場所:株式会社はてな様 京都オフィス セミナールーム(京都府京都市中京区高宮町206 御池ビル 8F)
+
+前回の関西開催時と同じく、今回も「アイディアソン」という形を取ろうと思っています!
+普段から溜めているアイディアを語ってみるのもよし!自由なアイマスハックの語らいの場としてご活用下さい!
+もちろんエンジニアとしてのレベルなんて無関係、これからアイマスエンジニアになるんだ!という方も気軽にご案内ください!
+
 ## リンク集
 
 - [#imas\_hack](https://twitter.com/search?f=tweets&q=%23imas_hack&src=typd)
