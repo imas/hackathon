@@ -15,12 +15,6 @@ imas-hackathon [![Slack Status](https://imas-hack.herokuapp.com/badge.svg)](http
 
 [Slack](https://imas-hack.herokuapp.com/)もあります。
 
-## 企画状況
-
-### アイマスハッカソン2017(仮)
-- 絶賛企画中です！11月or12月頃
-- 準備スレ [#53](https://github.com/imas/hackathon/issues/53)
-
 ## リンク集
 
 - [#imas\_hack](https://twitter.com/search?f=tweets&q=%23imas_hack&src=typd)
