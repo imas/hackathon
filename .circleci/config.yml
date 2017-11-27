@@ -22,12 +22,18 @@ jobs:
             echo "from location $(which ruby)"
             echo -p "gem list: $(gem list)"
       - run: mkdir $REPORT_DIR
+      - run: bundle install --gemfile=terraform/Gemfile
       - run:
           name: terraform plan
           command: |
             cd terraform/github
             terraform init
-            terraform plan -refresh=false
+            terraform plan -refresh=false | bundle exec landscape --no-color | tee ${REPORT_DIR}/terraform_github.log
+      - run:
+          name: post plan result
+          command: |
+            cd terraform/scripts
+            bundle exec ruby post_plan_result.rb
   apply:
     <<: *default
     steps:
