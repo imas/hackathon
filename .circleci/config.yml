@@ -54,7 +54,7 @@ jobs:
             cd terraform/github
             if [ -e .terraform/modules ]; then rm -rf .terraform/modules; fi;
             terraform init
-            terraform apply -refresh=false
+            terraform apply -auto-approve
 workflows:
   version: 2
   terraform:
