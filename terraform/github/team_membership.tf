@@ -13,10 +13,16 @@ resource "github_team_membership" "team_imas_hack_membership_crssnky" {
   role     = "member"
 }
 
+resource "github_team_membership" "team_imas_hack_membership_forno" {
+  team_id  = "${github_team.imas_hack.id}"
+  username = "forno"
+  role     = "member"
+}
+
 resource "github_team_membership" "team_imas_hack_membership_gomao9" {
   team_id  = "${github_team.imas_hack.id}"
   username = "gomao9"
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "team_imas_hack_membership_hamaco" {
@@ -91,6 +97,12 @@ resource "github_team_membership" "team_imas_hack_membership_shyazusa" {
   role     = "member"
 }
 
+resource "github_team_membership" "team_imas_hack_membership_su-rususu" {
+  team_id  = "${github_team.imas_hack.id}"
+  username = "su-rususu"
+  role     = "member"
+}
+
 resource "github_team_membership" "team_imas_hack_membership_takayamaki" {
   team_id  = "${github_team.imas_hack.id}"
   username = "takayamaki"
@@ -100,7 +112,7 @@ resource "github_team_membership" "team_imas_hack_membership_takayamaki" {
 resource "github_team_membership" "team_imas_hack_membership_treby" {
   team_id  = "${github_team.imas_hack.id}"
   username = "treby"
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "team_imas_hack_membership_urou" {
@@ -127,13 +139,13 @@ resource "github_team_membership" "team_staff_membership_hamaco" {
 resource "github_team_membership" "team_staff_membership_gomao9" {
   team_id  = "${github_team.staff.id}"
   username = "gomao9"
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "team_staff_membership_treby" {
   team_id  = "${github_team.staff.id}"
   username = "treby"
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "team_staff_membership_hamup8" {
@@ -178,6 +190,12 @@ resource "github_team_membership" "team_staff_membership_urou" {
   role     = "member"
 }
 
+resource "github_team_membership" "team_imas_hack_membership_yaminoma" {
+  team_id  = "${github_team.imas_hack.id}"
+  username = "yaminoma"
+  role     = "member"
+}
+
 resource "github_team_membership" "team_staff_membership_YutaGoto" {
   team_id  = "${github_team.staff.id}"
   username = "YutaGoto"
@@ -196,7 +214,7 @@ resource "github_team_membership" "team_imasparql_membership_crssnky" {
 resource "github_team_membership" "team_imasparql_membership_gomao9" {
   team_id  = "${github_team.imasparql.id}"
   username = "gomao9"
-  role     = "member"
+  role     = "maintainer"
 }
 
 #

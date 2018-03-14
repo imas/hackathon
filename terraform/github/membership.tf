@@ -8,6 +8,11 @@ resource "github_membership" "membership_for_crssnky" {
   role     = "member"
 }
 
+resource "github_membership" "membership_for_forno" {
+  username = "forno"
+  role     = "member"
+}
+
 resource "github_membership" "membership_for_gomao9" {
   username = "gomao9"
   role     = "admin"
@@ -73,6 +78,11 @@ resource "github_membership" "membership_for_shyazusa" {
   role     = "member"
 }
 
+resource "github_membership" "membership_for_su-rususu" {
+  username = "su-rususu"
+  role     = "member"
+}
+
 resource "github_membership" "membership_for_takayamaki" {
   username = "takayamaki"
   role     = "member"
@@ -85,6 +95,11 @@ resource "github_membership" "membership_for_treby" {
 
 resource "github_membership" "membership_for_urou" {
   username = "urou"
+  role     = "member"
+}
+
+resource "github_membership" "membership_for_yaminoma" {
+  username = "yaminoma"
   role     = "member"
 }
 
