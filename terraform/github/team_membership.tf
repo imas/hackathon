@@ -16,7 +16,7 @@ resource "github_team_membership" "team_imas_hack_membership_crssnky" {
 resource "github_team_membership" "team_imas_hack_membership_gomao9" {
   team_id  = "${github_team.imas_hack.id}"
   username = "gomao9"
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "team_imas_hack_membership_hamaco" {
@@ -100,7 +100,7 @@ resource "github_team_membership" "team_imas_hack_membership_takayamaki" {
 resource "github_team_membership" "team_imas_hack_membership_treby" {
   team_id  = "${github_team.imas_hack.id}"
   username = "treby"
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "team_imas_hack_membership_urou" {
@@ -127,13 +127,13 @@ resource "github_team_membership" "team_staff_membership_hamaco" {
 resource "github_team_membership" "team_staff_membership_gomao9" {
   team_id  = "${github_team.staff.id}"
   username = "gomao9"
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "team_staff_membership_treby" {
   team_id  = "${github_team.staff.id}"
   username = "treby"
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "team_staff_membership_hamup8" {
@@ -196,7 +196,7 @@ resource "github_team_membership" "team_imasparql_membership_crssnky" {
 resource "github_team_membership" "team_imasparql_membership_gomao9" {
   team_id  = "${github_team.imasparql.id}"
   username = "gomao9"
-  role     = "member"
+  role     = "maintainer"
 }
 
 #
