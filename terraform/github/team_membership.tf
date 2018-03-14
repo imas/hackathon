@@ -103,6 +103,12 @@ resource "github_team_membership" "team_imas_hack_membership_treby" {
   role     = "member"
 }
 
+resource "github_team_membership" "team_imas_hack_membership_urou" {
+  team_id  = "${github_team.imas_hack.id}"
+  username = "urou"
+  role     = "member"
+}
+
 resource "github_team_membership" "team_imas_hack_membership_YutaGoto" {
   team_id  = "${github_team.imas_hack.id}"
   username = "YutaGoto"
@@ -163,6 +169,18 @@ resource "github_team_membership" "team_staff_membership_adachi-tsukasa" {
 resource "github_team_membership" "team_staff_membership_takayamaki" {
   team_id  = "${github_team.staff.id}"
   username = "takayamaki"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_staff_membership_urou" {
+  team_id  = "${github_team.staff.id}"
+  username = "urou"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_staff_membership_YutaGoto" {
+  team_id  = "${github_team.staff.id}"
+  username = "YutaGoto"
   role     = "member"
 }
 
