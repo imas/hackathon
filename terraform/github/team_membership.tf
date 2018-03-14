@@ -13,6 +13,12 @@ resource "github_team_membership" "team_imas_hack_membership_crssnky" {
   role     = "member"
 }
 
+resource "github_team_membership" "team_imas_hack_membership_forno" {
+  team_id  = "${github_team.imas_hack.id}"
+  username = "forno"
+  role     = "member"
+}
+
 resource "github_team_membership" "team_imas_hack_membership_gomao9" {
   team_id  = "${github_team.imas_hack.id}"
   username = "gomao9"
@@ -88,6 +94,12 @@ resource "github_team_membership" "team_imas_hack_membership_Shinogasa" {
 resource "github_team_membership" "team_imas_hack_membership_shyazusa" {
   team_id  = "${github_team.imas_hack.id}"
   username = "shyazusa"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imas_hack_membership_su-rususu" {
+  team_id  = "${github_team.imas_hack.id}"
+  username = "su-rususu"
   role     = "member"
 }
 
@@ -175,6 +187,12 @@ resource "github_team_membership" "team_staff_membership_takayamaki" {
 resource "github_team_membership" "team_staff_membership_urou" {
   team_id  = "${github_team.staff.id}"
   username = "urou"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imas_hack_membership_yaminoma" {
+  team_id  = "${github_team.imas_hack.id}"
+  username = "yaminoma"
   role     = "member"
 }
 
