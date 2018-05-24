@@ -1,0 +1,68 @@
+version: 2
+jobs:
+  default: &default
+    working_dir: hackathon
+    environment:
+      REPORT_DIR: /report
+    docker:
+      - image: reproio/ruby_with_terraform:0.11.0
+    steps:
+      - checkout
+  plan:
+    <<: *default
+    steps:
+      - checkout
+      - run:
+          name: terraform version
+          command: "terraform --version"
+      - run:
+          name: echo ruby information
+          command: |
+            echo "ruby version $(ruby --version) running"
+            echo "from location $(which ruby)"
+            echo -p "gem list: $(gem list)"
+      - run: mkdir $REPORT_DIR
+      - run: bundle install --gemfile=terraform/Gemfile
+      - run:
+          name: terraform plan
+          command: |
+            cd terraform/github
+            terraform init
+            terraform plan -refresh=false | bundle exec landscape --no-color | tee ${REPORT_DIR}/terraform_github.log
+      - run:
+          name: post plan result
+          command: |
+            cd terraform/scripts
+            bundle exec ruby post_plan_result.rb
+  apply:
+    <<: *default
+    steps:
+      - checkout
+      - run:
+          name: terraform version
+          command: "terraform --version"
+      - run:
+          name: echo ruby information
+          command: |
+            echo "ruby version $(ruby --version) running"
+            echo "from location $(which ruby)"
+            echo -p "gem list: $(gem list)"
+      - run: mkdir $REPORT_DIR
+      - run:
+          name: terraform apply
+          command: |
+            cd terraform/github
+            if [ -e .terraform/modules ]; then rm -rf .terraform/modules; fi;
+            terraform init
+            terraform apply -auto-approve
+workflows:
+  version: 2
+  terraform:
+    jobs:
+      - plan
+      - apply:
+          requires:
+            - plan
+          filters:
+            branches:
+              only: master

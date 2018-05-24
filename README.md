@@ -1,5 +1,8 @@
-imas-hackathon [![Slack Status](https://imas-hack.herokuapp.com/badge.svg)](https://imas-hack.herokuapp.com)
+imas-hackathon
 ===
+
+[![Slack Status](https://imas-hack.herokuapp.com/badge.svg)](https://imas-hack.herokuapp.com)
+[![CircleCI](https://circleci.com/gh/imas/hackathon/tree/master.svg?style=svg)](https://circleci.com/gh/imas/hackathon/tree/master)
 
 **アイドルを愛でる。アイマスに貢献(Contribute)する。**
 
