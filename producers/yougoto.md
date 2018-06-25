@@ -1,6 +1,6 @@
 ## 名前
 
-### .ごっち()
+### .ごっち
 
 いまはRuby, RoRのエンジニアです。 ~人がいないので~ JavaScriptで書いたりしているときがあります。Webの人です。
 
@@ -14,7 +14,7 @@ PS4のプラチナスターズでプロデュースしていたこともあり�
 
 全員いいと思うんですよねぇはい。
 
-
+ダイマを受けたおかげで櫻井桃華さんとか安部菜々さんとか塩見周子さんとか宮本フレデリカさんとかみなさんすごい。。！
 
 ## 最近やっている活動
 
@@ -28,7 +28,7 @@ PS4のプラチナスターズでプロデュースしていたこともあり�
 
 ### staff
 
-[hack in Osaka 2018](https://imas.connpass.com/event/80082/) と [meetup in Tokyo 2018](https://imas.connpass.com/event/90996/) のスタッフ。
+[hackathon in Osaka 2018](https://imas.connpass.com/event/80082/) と [meetup in Tokyo 2018](https://imas.connpass.com/event/90996/) のスタッフ。
 
 ### それ以外
 
