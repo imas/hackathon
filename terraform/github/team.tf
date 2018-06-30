@@ -4,8 +4,9 @@ resource "github_team" "imas_hack" {
 }
 
 resource "github_team" "staff" {
-  name        = "staff"
-  privacy     = "closed"
+  name           = "staff"
+  parent_team_id = "${github_team.imas_hack.id}"
+  privacy        = "closed"
 }
 
 resource "github_team" "imastodon" {
