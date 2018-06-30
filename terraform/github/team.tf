@@ -1,6 +1,6 @@
 resource "github_team" "imas_hack" {
-  name        = "imas_hack"
-  privacy     = "closed"
+  name    = "imas_hack"
+  privacy = "closed"
 }
 
 resource "github_team" "staff" {
@@ -10,8 +10,8 @@ resource "github_team" "staff" {
 }
 
 resource "github_team" "imastodon" {
-  name        = "imastodon"
-  privacy     = "closed"
+  name    = "imastodon"
+  privacy = "closed"
 }
 
 resource "github_team" "imasparql" {
