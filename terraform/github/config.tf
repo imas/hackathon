@@ -9,8 +9,8 @@ provider "github" {
 
 terraform {
   backend "s3" {
-    bucket  = "imas-hackathon"
-    key     = "terraform/github.tfstate"
-    region  = "ap-northeast-1"
+    bucket = "imas-hackathon"
+    key    = "terraform/github.tfstate"
+    region = "ap-northeast-1"
   }
 }

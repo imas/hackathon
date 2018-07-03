@@ -15,7 +15,7 @@ resource "github_membership" "membership_for_forno" {
 
 resource "github_membership" "membership_for_gomao9" {
   username = "gomao9"
-  role     = "admin"
+  role     = "member"
 }
 
 resource "github_membership" "membership_for_hamaco" {
