@@ -1,7 +1,7 @@
 # hackathon
-resource "github_repository_collaborator" "hackathon_kaibasira" {
+resource "github_repository_collaborator" "hackathon_bode-mmk" {
   repository = "hackathon"
-  username   = "kaibasira"
+  username   = "bode-mmk"
   permission = "admin"
 }
 

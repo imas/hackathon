@@ -7,6 +7,12 @@ resource "github_team_membership" "team_imas_hack_membership_adachi-tsukasa" {
   role     = "maintainer"
 }
 
+resource "github_team_membership" "team_imas_hack_membership_bode-mmk" {
+  team_id  = "${github_team.imas_hack.id}"
+  username = "bode-mmk"
+  role     = "member"
+}
+
 resource "github_team_membership" "team_imas_hack_membership_crssnky" {
   team_id  = "${github_team.imas_hack.id}"
   username = "crssnky"
@@ -46,12 +52,6 @@ resource "github_team_membership" "team_imas_hack_membership_hkdnet" {
 resource "github_team_membership" "team_imas_hack_membership_kahun-mask" {
   team_id  = "${github_team.imas_hack.id}"
   username = "kahun-mask"
-  role     = "member"
-}
-
-resource "github_team_membership" "team_imas_hack_membership_kaibasira" {
-  team_id  = "${github_team.imas_hack.id}"
-  username = "kaibasira"
   role     = "member"
 }
 
@@ -130,6 +130,12 @@ resource "github_team_membership" "team_imas_hack_membership_YutaGoto" {
 #
 # staff
 #
+resource "github_team_membership" "team_staff_membership_bode-mmk" {
+  team_id  = "${github_team.staff.id}"
+  username = "bode-mmk"
+  role     = "member"
+}
+
 resource "github_team_membership" "team_staff_membership_hamaco" {
   team_id  = "${github_team.staff.id}"
   username = "hamaco"
@@ -151,12 +157,6 @@ resource "github_team_membership" "team_staff_membership_treby" {
 resource "github_team_membership" "team_staff_membership_hamup8" {
   team_id  = "${github_team.staff.id}"
   username = "hamup8"
-  role     = "member"
-}
-
-resource "github_team_membership" "team_staff_membership_kaibasira" {
-  team_id  = "${github_team.staff.id}"
-  username = "kaibasira"
   role     = "member"
 }
 

@@ -3,6 +3,11 @@ resource "github_membership" "membership_for_adachi-tsukasa" {
   role     = "member"
 }
 
+resource "github_membership" "membership_for_bode-mmk" {
+  username = "bode-mmk"
+  role     = "member"
+}
+
 resource "github_membership" "membership_for_crssnky" {
   username = "crssnky"
   role     = "member"
@@ -35,11 +40,6 @@ resource "github_membership" "membership_for_hkdnet" {
 
 resource "github_membership" "membership_for_kahun-mask" {
   username = "kahun-mask"
-  role     = "member"
-}
-
-resource "github_membership" "membership_for_kaibasira" {
-  username = "kaibasira"
   role     = "member"
 }
 
