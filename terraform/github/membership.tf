@@ -3,6 +3,11 @@ resource "github_membership" "membership_for_adachi-tsukasa" {
   role     = "member"
 }
 
+resource "github_membership" "membership_for_bode-mmk" {
+  username = "bode-mmk"
+  role     = "member"
+}
+
 resource "github_membership" "membership_for_crssnky" {
   username = "crssnky"
   role     = "member"
@@ -15,7 +20,7 @@ resource "github_membership" "membership_for_forno" {
 
 resource "github_membership" "membership_for_gomao9" {
   username = "gomao9"
-  role     = "admin"
+  role     = "member"
 }
 
 resource "github_membership" "membership_for_hamaco" {
@@ -38,13 +43,13 @@ resource "github_membership" "membership_for_kahun-mask" {
   role     = "member"
 }
 
-resource "github_membership" "membership_for_kaibasira" {
-  username = "kaibasira"
+resource "github_membership" "membership_for_katao" {
+  username = "katao"
   role     = "member"
 }
 
-resource "github_membership" "membership_for_katao" {
-  username = "katao"
+resource "github_membership" "membership_for_kiridaruma" {
+  username = "kiridaruma"
   role     = "member"
 }
 
