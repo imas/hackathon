@@ -3,14 +3,24 @@ resource "github_membership" "membership_for_adachi-tsukasa" {
   role     = "member"
 }
 
+resource "github_membership" "membership_for_bode-mmk" {
+  username = "bode-mmk"
+  role     = "member"
+}
+
 resource "github_membership" "membership_for_crssnky" {
   username = "crssnky"
   role     = "member"
 }
 
+resource "github_membership" "membership_for_forno" {
+  username = "forno"
+  role     = "member"
+}
+
 resource "github_membership" "membership_for_gomao9" {
   username = "gomao9"
-  role     = "admin"
+  role     = "member"
 }
 
 resource "github_membership" "membership_for_hamaco" {
@@ -33,13 +43,13 @@ resource "github_membership" "membership_for_kahun-mask" {
   role     = "member"
 }
 
-resource "github_membership" "membership_for_kaibasira" {
-  username = "kaibasira"
+resource "github_membership" "membership_for_katao" {
+  username = "katao"
   role     = "member"
 }
 
-resource "github_membership" "membership_for_katao" {
-  username = "katao"
+resource "github_membership" "membership_for_kiridaruma" {
+  username = "kiridaruma"
   role     = "member"
 }
 
@@ -73,6 +83,11 @@ resource "github_membership" "membership_for_shyazusa" {
   role     = "member"
 }
 
+resource "github_membership" "membership_for_su-rususu" {
+  username = "su-rususu"
+  role     = "member"
+}
+
 resource "github_membership" "membership_for_takayamaki" {
   username = "takayamaki"
   role     = "member"
@@ -85,6 +100,11 @@ resource "github_membership" "membership_for_treby" {
 
 resource "github_membership" "membership_for_urou" {
   username = "urou"
+  role     = "member"
+}
+
+resource "github_membership" "membership_for_yaminoma" {
+  username = "yaminoma"
   role     = "member"
 }
 
