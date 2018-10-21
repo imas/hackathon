@@ -184,6 +184,12 @@ resource "github_team_membership" "team_staff_membership_YutaGoto" {
   role     = "member"
 }
 
+resource "github_team_membership" "team_staff_membership_oniipon" {
+  team_id  = "${github_team.staff.id}"
+  username = "oniipon"
+  role     = "member"
+}
+
 #
 # imasparql
 #
