@@ -133,6 +133,12 @@ resource "github_team_membership" "team_imas_hack_membership_YutaGoto" {
   role     = "member"
 }
 
+resource "github_team_membership" "team_imas_hack_membership_takanakahiko" {
+  team_id  = "${github_team.imas_hack.id}"
+  username = "takanakahiko"
+  role     = "member"
+}
+
 #
 # staff
 #
@@ -211,6 +217,12 @@ resource "github_team_membership" "team_staff_membership_YutaGoto" {
 resource "github_team_membership" "team_staff_membership_oniipon" {
   team_id  = "${github_team.staff.id}"
   username = "oniipon"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_staff_membership_takanakahiko" {
+  team_id  = "${github_team.staff.id}"
+  username = "takanakahiko"
   role     = "member"
 }
 
