@@ -88,6 +88,11 @@ resource "github_membership" "membership_for_su-rususu" {
   role     = "member"
 }
 
+resource "github_membership" "membership_for_takanakahiko" {
+  username = "takanakahiko"
+  role     = "member"
+}
+
 resource "github_membership" "membership_for_takayamaki" {
   username = "takayamaki"
   role     = "member"
