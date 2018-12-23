@@ -121,6 +121,12 @@ resource "github_team_membership" "team_imas_hack_membership_takayamaki" {
   role     = "maintainer"
 }
 
+resource "github_team_membership" "team_imas_hack_membership_takemikami" {
+  team_id  = "${github_team.imas_hack.id}"
+  username = "takemikami"
+  role     = "member"
+}
+
 resource "github_team_membership" "team_imas_hack_membership_treby" {
   team_id  = "${github_team.imas_hack.id}"
   username = "treby"
