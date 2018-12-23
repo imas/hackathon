@@ -48,3 +48,10 @@ resource "github_repository_collaborator" "imasparql_crssnky" {
   username   = "crssnky"
   permission = "admin"
 }
+
+# rdflint
+resource "github_repository_collaborator" "rdflint_takemikami" {
+  repository = "rdflint"
+  username   = "takemikami"
+  permission = "admin"
+}
