@@ -26,3 +26,12 @@ resource "github_repository" "imasparql" {
   has_wiki      = true
   has_downloads = true
 }
+
+resource "github_repository" "rdflint" {
+  name         = "rdflint"
+  description  = "RDF linter"
+
+  has_issues    = true
+  has_wiki      = true
+  has_downloads = true
+}
