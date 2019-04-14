@@ -55,3 +55,5 @@ resource "github_repository_collaborator" "rdflint_takemikami" {
   username   = "takemikami"
   permission = "admin"
 }
+
+# imasbook
