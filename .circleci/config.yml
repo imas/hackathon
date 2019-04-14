@@ -6,6 +6,10 @@ jobs:
       REPORT_DIR: /report
     docker:
       - image: reproio/ruby_with_terraform:0.11.0
+        environment:
+          - LC_ALL: C.UTF-8
+          - LANG: ja_JP.UTF-8
+          - LANGUAGE: ja_JP.UTF-8
     steps:
       - checkout
   plan:
