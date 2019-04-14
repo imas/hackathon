@@ -57,3 +57,15 @@ resource "github_repository_collaborator" "rdflint_takemikami" {
 }
 
 # imasbook
+resource "github_repository_collaborator" "imasbook_kiridaruma" {
+  repository = "imasbook"
+  username   = "kiridaruma"
+  permission = "admin"
+}
+
+resource "github_repository_collaborator" "imasbook_YutaGoto" {
+  repository = "imasbook"
+  username   = "YutaGoto"
+  permission = "admin"
+}
+

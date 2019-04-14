@@ -38,7 +38,7 @@ resource "github_repository" "rdflint" {
 
 resource "github_repository" "imasbook" {
   name          = "imasbook"
-  description   = "週刊IMAStudy"
+  description   = "週刊IM@Study"
 
   has_downloads = true
   has_issues    = true
