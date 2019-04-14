@@ -22,7 +22,7 @@ resource "github_team_repository" "team_imasparql_rdflint" {
   permission = "push"
 }
 
-resource "github_ream_repository" "team_imasbook_imasbook" {
+resource "github_team_repository" "team_imasbook_imasbook" {
   team_id    = "${github_team.imasbook.id}"
   repository = "${github_repository.imasbook.id}"
   permission = "push"
