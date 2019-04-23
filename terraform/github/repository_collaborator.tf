@@ -55,3 +55,17 @@ resource "github_repository_collaborator" "rdflint_takemikami" {
   username   = "takemikami"
   permission = "admin"
 }
+
+# imasbook
+resource "github_repository_collaborator" "imasbook_kiridaruma" {
+  repository = "imasbook"
+  username   = "kiridaruma"
+  permission = "admin"
+}
+
+resource "github_repository_collaborator" "imasbook_YutaGoto" {
+  repository = "imasbook"
+  username   = "YutaGoto"
+  permission = "admin"
+}
+
