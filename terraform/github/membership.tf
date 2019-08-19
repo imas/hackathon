@@ -147,3 +147,8 @@ resource "github_membership" "membership_for_yuki-hevx86" {
   username = "yuki-hevx86"
   role     = "member"
 }
+
+resource "github_membership" "membership_for_UskeS" {
+  username = "UskeS"
+  role     = "member"
+}

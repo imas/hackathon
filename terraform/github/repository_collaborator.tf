@@ -82,4 +82,9 @@ resource "github_repository_collaborator" "imasbook_yuki-hevx86" {
   username   = "yuki-hevx86"
   permission = "admin"
 }
+resource "github_repository_collaborator" "imasbook_UskeS" {
+  repository = "imasbook"
+  username   = "UskeS"
+  permission = "admin"
+}
 

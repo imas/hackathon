@@ -291,3 +291,8 @@ resource "github_team_membership" "team_imastodon_membership_kiridaruma" {
   username = "kiridaruma"
   role     = "member"
 }
+resource "github_team_membership" "team_imastodon_membership_UskeS" {
+  team_id  = "${github_team.imastodon.id}"
+  username = "UskeS"
+  role     = "member"
+}
