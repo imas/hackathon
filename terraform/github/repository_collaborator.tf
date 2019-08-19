@@ -62,10 +62,29 @@ resource "github_repository_collaborator" "imasbook_kiridaruma" {
   username   = "kiridaruma"
   permission = "admin"
 }
-
 resource "github_repository_collaborator" "imasbook_YutaGoto" {
   repository = "imasbook"
   username   = "YutaGoto"
+  permission = "admin"
+}
+resource "github_repository_collaborator" "imasbook_subroh0508" {
+  repository = "imasbook"
+  username   = "subroh0508"
+  permission = "admin"
+}
+resource "github_repository_collaborator" "imasbook_kagemiku" {
+  repository = "imasbook"
+  username   = "kagemiku"
+  permission = "admin"
+}
+resource "github_repository_collaborator" "imasbook_yuki-hevx86" {
+  repository = "imasbook"
+  username   = "yuki-hevx86"
+  permission = "admin"
+}
+resource "github_repository_collaborator" "imasbook_UskeS" {
+  repository = "imasbook"
+  username   = "UskeS"
   permission = "admin"
 }
 
