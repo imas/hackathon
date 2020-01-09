@@ -56,6 +56,20 @@ resource "github_repository_collaborator" "rdflint_takemikami" {
   permission = "admin"
 }
 
+# homebrew-rdflint
+resource "github_repository_collaborator" "homebrew_rdflint_takemikami" {
+  repository = "homebrew-rdflint"
+  username   = "takemikami"
+  permission = "admin"
+}
+
+# vscode-rdflint
+resource "github_repository_collaborator" "vscode_rdflint_takemikami" {
+  repository = "vscode-rdflint"
+  username   = "takemikami"
+  permission = "admin"
+}
+
 # imasbook
 resource "github_repository_collaborator" "imasbook_kiridaruma" {
   repository = "imasbook"
