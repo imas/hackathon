@@ -259,6 +259,12 @@ resource "github_team_membership" "team_imasparql_membership_foooomio" {
   role     = "member"
 }
 
+resource "github_team_membership" "team_imasparql_membership_kiridaruma" {
+  team_id  = "${github_team.imasparql.id}"
+  username = "kiridaruma"
+  role     = "member"
+}
+
 #
 # imastodon
 #
