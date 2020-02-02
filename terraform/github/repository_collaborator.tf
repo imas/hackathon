@@ -70,6 +70,19 @@ resource "github_repository_collaborator" "vscode_rdflint_takemikami" {
   permission = "admin"
 }
 
+# setup-rdflint
+resource "github_repository_collaborator" "setup_rdflint_takemikami" {
+  repository = "setup-rdflint"
+  username   = "takemikami"
+  permission = "admin"
+}
+
+resource "github_repository_collaborator" "setup_rdflint_foooomio" {
+  repository = "setup-rdflint"
+  username   = "foooomio"
+  permission = "admin"
+}
+
 # imasbook
 resource "github_repository_collaborator" "imasbook_kiridaruma" {
   repository = "imasbook"

@@ -56,6 +56,15 @@ resource "github_repository" "vscode_rdflint" {
   has_downloads = true
 }
 
+resource "github_repository" "setup_rdflint" {
+  name         = "setup-rdflint"
+  description  = "GitHub Action to setup rdflint"
+
+  has_issues    = true
+  has_wiki      = true
+  has_downloads = true
+}
+
 resource "github_repository" "imasbook" {
   name          = "imasbook"
   description   = "週刊IM@Study"
