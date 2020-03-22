@@ -23,7 +23,7 @@ resource "github_repository" "imasparql" {
   homepage_url = "https://sparql.crssnky.xyz/imas/"
 
   has_issues    = true
-  has_wiki      = true
+  has_wiki      = false
   has_downloads = true
 }
 
