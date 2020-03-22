@@ -265,11 +265,46 @@ resource "github_team_membership" "team_imasparql_membership_subroh0508" {
   role     = "member"
 }
 
+resource "github_team_membership" "team_imasparql_membership_kiridaruma" {
+  team_id  = "${github_team.imasparql.id}"
+  username = "kiridaruma"
+  role     = "member"
+}
+
 #
 # imastodon
 #
 resource "github_team_membership" "team_imastodon_membership_takayamaki" {
   team_id  = "${github_team.imastodon.id}"
   username = "takayamaki"
+  role     = "member"
+}
+
+#
+# imasbook
+#
+resource "github_team_membership" "team_imasbook_membership_subroh0508" {
+  team_id  = "${github_team.imasbook.id}"
+  username = "subroh0508"
+  role     = "member"
+}
+resource "github_team_membership" "team_imasbook_membership_kagemiku" {
+  team_id  = "${github_team.imasbook.id}"
+  username = "kagemiku"
+  role     = "member"
+}
+resource "github_team_membership" "team_imasbook_membership_yuki-hevx86" {
+  team_id  = "${github_team.imasbook.id}"
+  username = "yuki-hevx86"
+  role     = "member"
+}
+resource "github_team_membership" "team_imasbook_membership_kiridaruma" {
+  team_id  = "${github_team.imasbook.id}"
+  username = "kiridaruma"
+  role     = "member"
+}
+resource "github_team_membership" "team_imasbook_membership_UskeS" {
+  team_id  = "${github_team.imasbook.id}"
+  username = "UskeS"
   role     = "member"
 }

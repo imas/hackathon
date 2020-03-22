@@ -56,16 +56,62 @@ resource "github_repository_collaborator" "rdflint_takemikami" {
   permission = "admin"
 }
 
+# homebrew-rdflint
+resource "github_repository_collaborator" "homebrew_rdflint_takemikami" {
+  repository = "homebrew-rdflint"
+  username   = "takemikami"
+  permission = "admin"
+}
+
+# vscode-rdflint
+resource "github_repository_collaborator" "vscode_rdflint_takemikami" {
+  repository = "vscode-rdflint"
+  username   = "takemikami"
+  permission = "admin"
+}
+
+# setup-rdflint
+resource "github_repository_collaborator" "setup_rdflint_takemikami" {
+  repository = "setup-rdflint"
+  username   = "takemikami"
+  permission = "admin"
+}
+
+resource "github_repository_collaborator" "setup_rdflint_foooomio" {
+  repository = "setup-rdflint"
+  username   = "foooomio"
+  permission = "admin"
+}
+
 # imasbook
 resource "github_repository_collaborator" "imasbook_kiridaruma" {
   repository = "imasbook"
   username   = "kiridaruma"
   permission = "admin"
 }
-
 resource "github_repository_collaborator" "imasbook_YutaGoto" {
   repository = "imasbook"
   username   = "YutaGoto"
+  permission = "admin"
+}
+resource "github_repository_collaborator" "imasbook_subroh0508" {
+  repository = "imasbook"
+  username   = "subroh0508"
+  permission = "admin"
+}
+resource "github_repository_collaborator" "imasbook_kagemiku" {
+  repository = "imasbook"
+  username   = "kagemiku"
+  permission = "admin"
+}
+resource "github_repository_collaborator" "imasbook_yuki-hevx86" {
+  repository = "imasbook"
+  username   = "yuki-hevx86"
+  permission = "admin"
+}
+resource "github_repository_collaborator" "imasbook_UskeS" {
+  repository = "imasbook"
+  username   = "UskeS"
   permission = "admin"
 }
 

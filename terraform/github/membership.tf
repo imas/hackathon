@@ -137,3 +137,23 @@ resource "github_membership" "membership_for_foooomio" {
   username = "foooomio"
   role     = "member"
 }
+
+resource "github_membership" "membership_for_subroh0508" {
+  username = "subroh0508"
+  role     = "member"
+}
+
+resource "github_membership" "membership_for_kagemiku" {
+  username = "kagemiku"
+  role     = "member"
+}
+
+resource "github_membership" "membership_for_yuki-hevx86" {
+  username = "yuki-hevx86"
+  role     = "member"
+}
+
+resource "github_membership" "membership_for_UskeS" {
+  username = "UskeS"
+  role     = "member"
+}
