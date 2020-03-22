@@ -127,3 +127,8 @@ resource "github_membership" "membership_for_oniipon" {
   username = "oniipon"
   role     = "member"
 }
+
+resource "github_membership" "membership_for_foooomio" {
+  username = "foooomio"
+  role     = "member"
+}

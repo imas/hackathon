@@ -19,3 +19,8 @@ resource "github_team" "imasparql" {
   description = "https://sparql.crssnky.xyz/imas/"
   privacy     = "closed"
 }
+
+resource "github_team" "imasbook" {
+  name        = "imasbook"
+  privacy     = "closed"
+}

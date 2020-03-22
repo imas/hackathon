@@ -35,3 +35,12 @@ resource "github_repository" "rdflint" {
   has_wiki      = true
   has_downloads = true
 }
+
+resource "github_repository" "imasbook" {
+  name          = "imasbook"
+  description   = "週刊IM@Study"
+
+  has_downloads = true
+  has_issues    = true
+  has_wiki      = true
+}
