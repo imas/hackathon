@@ -138,11 +138,6 @@ resource "github_membership" "membership_for_foooomio" {
   role     = "member"
 }
 
-resource "github_membership" "membership_for_subroh0508" {
-  username = "subroh0508"
-  role     = "member"
-}
-
 resource "github_membership" "membership_for_kagemiku" {
   username = "kagemiku"
   role     = "member"
