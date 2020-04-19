@@ -20,6 +20,12 @@ resource "github_team" "imasparql" {
   privacy     = "closed"
 }
 
+resource "github_team" "imasparql_reviewer" {
+  name        = "imasparql_reviewer"
+  description = "https://sparql.crssnky.xyz/imas/"
+  privacy     = "closed"
+}
+
 resource "github_team" "imasbook" {
   name        = "imasbook"
   privacy     = "closed"

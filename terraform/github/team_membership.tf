@@ -241,12 +241,6 @@ resource "github_team_membership" "team_imasparql_membership_crssnky" {
   role     = "member"
 }
 
-resource "github_team_membership" "team_imasparql_membership_gomao9" {
-  team_id  = "${github_team.imasparql.id}"
-  username = "gomao9"
-  role     = "member"
-}
-
 resource "github_team_membership" "team_imasparql_membership_takemikami" {
   team_id  = "${github_team.imasparql.id}"
   username = "takemikami"
@@ -259,17 +253,117 @@ resource "github_team_membership" "team_imasparql_membership_foooomio" {
   role     = "member"
 }
 
-resource "github_team_membership" "team_imasparql_membership_subroh0508" {
-  team_id  = "${github_team.imasparql.id}"
-  username = "subroh0508"
-  role     = "member"
-}
-
 resource "github_team_membership" "team_imasparql_membership_kiridaruma" {
   team_id  = "${github_team.imasparql.id}"
   username = "kiridaruma"
   role     = "member"
 }
+
+#
+# imasparql reviewer
+#
+resource "github_team_membership" "team_imasparql_reviewer_membership_forno" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "forno"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_gomao9" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "gomao9"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_hsugita" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "hsugita"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_izumin0x0f" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "izumin0x0f"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_IDOL99" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "IDOL99"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_kagankan" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "kagankan"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_kagemiku" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "kagemiku"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_katao" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "katao"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_maraigue" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "maraigue"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_mh35" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "mh35"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_NKudryavka" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "NKudryavka"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_oniipon" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "oniipon"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_smicle" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "smicle"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_Suzuka-Samidare" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "Suzuka-Samidare"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_takayamaki" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "takayamaki"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_tumugin" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "tumugin"
+  role     = "member"
+}
+
+resource "github_team_membership" "team_imasparql_reviewer_membership_YutaGoto" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "YutaGoto"
+  role     = "member"
+}
+
 
 #
 # imastodon
