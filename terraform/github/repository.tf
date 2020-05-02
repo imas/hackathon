@@ -51,9 +51,7 @@ resource "github_repository" "vscode_rdflint" {
   description  = "rdflint extension for Visual Studio Code"
   homepage_url = "https://marketplace.visualstudio.com/items?itemName=takemikami.vscode-rdflint"
 
-  has_issues    = true
-  has_wiki      = true
-  has_downloads = true
+  archived      = true
 }
 
 resource "github_repository" "setup_rdflint" {
