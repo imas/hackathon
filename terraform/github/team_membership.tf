@@ -346,6 +346,12 @@ resource "github_team_membership" "team_imasparql_reviewer_membership_Suzuka-Sam
   role     = "member"
 }
 
+resource "github_team_membership" "team_imasparql_reviewer_membership_subroh0508" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "subroh0508"
+  role     = "member"
+}
+
 resource "github_team_membership" "team_imasparql_reviewer_membership_takayamaki" {
   team_id  = "${github_team.imasparql_reviewer.id}"
   username = "takayamaki"
