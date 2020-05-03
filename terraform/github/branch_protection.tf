@@ -30,3 +30,22 @@ resource "github_branch_protection" "mastodon_imastodon" {
 
   restrictions {}
 }
+
+resource "github_branch_protection" "imasparql_master" {
+  repository     = "imasparql"
+  branch         = "master"
+  enforce_admins = false
+
+  required_status_checks {
+    strict   = true
+    contexts = ["continuous-integration/github_actions"]
+  }
+
+  required_pull_request_reviews {
+    dismiss_stale_reviews = true
+    require_code_owner_reviews = true
+    required_approving_review_count = 1
+  }
+
+  restrictions {}
+}
