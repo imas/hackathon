@@ -19,7 +19,7 @@ resource "github_team_repository" "team_imasparql_imasparql" {
 resource "github_team_repository" "team_imasparql_imasparql_reviewer" {
   team_id    = "${github_team.imasparql_reviewer.id}"
   repository = "${github_repository.imasparql.id}"
-  permission = "pull"
+  permission = "push"
 }
 
 resource "github_team_repository" "team_imasparql_rdflint" {
