@@ -38,7 +38,7 @@ resource "github_branch_protection" "imasparql_master" {
 
   required_status_checks {
     strict   = true
-    contexts = ["continuous-integration/github_actions"]
+    contexts = ["CI / rdflint (pull_request)"]
   }
 
   required_pull_request_reviews {
