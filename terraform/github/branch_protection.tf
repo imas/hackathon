@@ -21,7 +21,9 @@ resource "github_branch_protection" "mastodon_imastodon" {
 
   required_status_checks {
     strict   = false
-    contexts = ["continuous-integration/travis-ci"]
+    contexts = [
+      "ci/circleci: test-ruby2.6",      
+    ]
   }
 
   required_pull_request_reviews {
