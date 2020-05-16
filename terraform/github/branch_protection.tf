@@ -40,7 +40,7 @@ resource "github_branch_protection" "imasparql_master" {
 
   required_status_checks {
     strict   = true
-    contexts = ["CI / rdflint (pull_request)"]
+    contexts = ["rdflint"]
   }
 
   required_pull_request_reviews {
