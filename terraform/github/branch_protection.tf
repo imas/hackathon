@@ -10,7 +10,7 @@ resource "github_branch_protection" "hackathon_master" {
   }
 
   push_restrictions = [
-    data.github_team.imas_hack.node_id
+    "imas_hack"
   ]
 }
 
