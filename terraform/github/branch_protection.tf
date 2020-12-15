@@ -1,5 +1,5 @@
 resource "github_branch_protection" "hackathon_master" {
-  repository_id  = github_repository.hackathon.node_id
+  repository_id  = "hackathon"
   pattern        = "master"
   enforce_admins = false
 
@@ -15,7 +15,7 @@ resource "github_branch_protection" "hackathon_master" {
 }
 
 resource "github_branch_protection" "mastodon_imastodon" {
-  repository_id  = github_repository.mastodon.node_id
+  repository_id  = "mastodon"
   pattern        = "imastodon"
   enforce_admins = false
 
@@ -32,7 +32,7 @@ resource "github_branch_protection" "mastodon_imastodon" {
 }
 
 resource "github_branch_protection" "imasparql_master" {
-  repository_id  = github_repository.imasparql.node_id
+  repository_id  = "imasparql"
   pattern        = "master"
   enforce_admins = false
 
