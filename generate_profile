@@ -22,7 +22,7 @@ base = ARGV.empty? ? '.' : ARGV.shift
 tpl_file = File.join(base, "#{dir_name}/_template.md")
 my_file = File.join(base, "#{dir_name}/#{params[:name]}.md")
 
-if File.exists?(my_file)
+if File.exist?(my_file)
   abort "#{my_file}: File already exists."
 end
 
