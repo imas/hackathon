@@ -3,7 +3,7 @@ orbs:
   ruby: circleci/ruby@2.1.3
 jobs:
   default: &default
-    working_dir: hackathon
+    working_directory: hackathon
     environment:
       REPORT_DIR: /report
     docker:
