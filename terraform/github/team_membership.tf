@@ -370,6 +370,12 @@ resource "github_team_membership" "team_imasparql_reviewer_membership_YutaGoto" 
   role     = "member"
 }
 
+resource "github_team_membership" "team_imasparql_reviewer_membership_banjun" {
+  team_id  = "${github_team.imasparql_reviewer.id}"
+  username = "banjun"
+  role     = "member"
+}
+
 
 #
 # imastodon
