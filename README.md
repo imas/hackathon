@@ -1,7 +1,6 @@
 imas-hackathon
 ===
 
-[![Slack Status](https://imas-hack.herokuapp.com/badge.svg)](https://imas-hack.herokuapp.com)
 [![CircleCI](https://circleci.com/gh/imas/hackathon/tree/master.svg?style=svg)](https://circleci.com/gh/imas/hackathon/tree/master)
 
 **アイドルを愛でる。アイマスに貢献(Contribute)する。**
@@ -16,12 +15,12 @@ imas-hackathon
 
 `./generate_profile` を実行すれば無駄に対話形式でいけます。
 
-[Slack](https://imas-hack.herokuapp.com/)もあります。
+[Slack](https://join.slack.com/t/imas-hack/shared_invite/zt-2f9pri8j6-APvXtTdObohZRW~szc9OlA)もあります。
 
 ## リンク集
 
 - [#imas\_hack](https://twitter.com/search?f=tweets&q=%23imas_hack&src=typd)
-- [Slack](https://imas-hack.herokuapp.com/)
+- [Slack](https://join.slack.com/t/imas-hack/shared_invite/zt-2f9pri8j6-APvXtTdObohZRW~szc9OlA)
 - [connpass](http://imas.connpass.com/)
 
-ツッコミ歓迎します。Pull Request、Issue、[Slack](https://imas-hack.herokuapp.com/)まで連絡ください。
+ツッコミ歓迎します。Pull Request、Issue、[Slack](https://join.slack.com/t/imas-hack/shared_invite/zt-2f9pri8j6-APvXtTdObohZRW~szc9OlA)まで連絡ください。
