@@ -6,7 +6,7 @@ GEM
     colorize (0.8.1)
     commander (4.4.3)
       highline (~> 1.7.2)
-    diffy (3.2.0)
+    diffy (3.4.2)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
     highline (1.7.10)
